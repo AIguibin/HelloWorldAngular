@@ -1,21 +1,28 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
-# compiled output
-/dist
-/tmp
-/out-tsc
-
-# dependencies
-/node_modules
 
 # IDEs and editors
 /.idea
-.project
-.classpath
-.c9/
-*.launch
+.idea/
 .settings/
+.c9/
+
+*.iml
+*.ipr
+*.iws
+*.launch
 *.sublime-workspace
+
+# Maven files
+target/
+
+# Gradle files
+.gradle/
+build/
+
+# IDEs Eclipse files
+.classpath
+.project
 
 # IDE - VSCode
 .vscode/*
@@ -23,6 +30,14 @@
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+/node_modules
 
 # misc
 /.sass-cache
