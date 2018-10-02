@@ -3,7 +3,6 @@
 
 # IDEs and editors
 /.idea
-.idea/
 .settings/
 .c9/
 
@@ -18,7 +17,6 @@ target/
 
 # Gradle files
 .gradle/
-build/
 
 # IDEs Eclipse files
 .classpath
@@ -50,5 +48,4 @@ testem.log
 /typings
 
 # System Files
-.DS_Store
 Thumbs.db
